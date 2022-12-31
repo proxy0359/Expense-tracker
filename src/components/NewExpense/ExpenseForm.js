@@ -30,15 +30,12 @@ const ExpenseForm = (props) => {
 
     if (!titleIsValid) {
       setTitleError(true);
-      return;
     }
     if (!amountIsValid) {
       setAmountError(true);
-      return;
     }
     if (!dateIsValid) {
       setDateError(true);
-      return;
     }
     if (!formIsValid) {
       setTitleError(true);
