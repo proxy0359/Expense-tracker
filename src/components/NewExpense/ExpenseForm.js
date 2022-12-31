@@ -38,9 +38,6 @@ const ExpenseForm = (props) => {
       setDateError(true);
     }
     if (!formIsValid) {
-      setTitleError(true);
-      setAmountError(true);
-      setDateError(true);
       return;
     }
 
